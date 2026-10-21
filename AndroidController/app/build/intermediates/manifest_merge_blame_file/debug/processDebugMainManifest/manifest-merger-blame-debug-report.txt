@@ -1,0 +1,63 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="hu.tankcar.controller"
+4    android:versionCode="7"
+5    android:versionName="2.5" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+9        android:targetSdkVersion="36" />
+10
+11    <uses-permission
+11-->C:\Users\Roland\Desktop\XboxTankCar\AndroidController\app\src\main\AndroidManifest.xml:2:5-95
+12        android:name="android.permission.BLUETOOTH"
+12-->C:\Users\Roland\Desktop\XboxTankCar\AndroidController\app\src\main\AndroidManifest.xml:2:22-65
+13        android:maxSdkVersion="30" />
+13-->C:\Users\Roland\Desktop\XboxTankCar\AndroidController\app\src\main\AndroidManifest.xml:2:66-92
+14    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+14-->C:\Users\Roland\Desktop\XboxTankCar\AndroidController\app\src\main\AndroidManifest.xml:3:5-76
+14-->C:\Users\Roland\Desktop\XboxTankCar\AndroidController\app\src\main\AndroidManifest.xml:3:22-73
+15
+16    <uses-feature
+16-->C:\Users\Roland\Desktop\XboxTankCar\AndroidController\app\src\main\AndroidManifest.xml:4:5-87
+17        android:name="android.hardware.bluetooth"
+17-->C:\Users\Roland\Desktop\XboxTankCar\AndroidController\app\src\main\AndroidManifest.xml:4:19-60
+18        android:required="true" />
+18-->C:\Users\Roland\Desktop\XboxTankCar\AndroidController\app\src\main\AndroidManifest.xml:4:61-84
+19
+20    <application
+20-->C:\Users\Roland\Desktop\XboxTankCar\AndroidController\app\src\main\AndroidManifest.xml:5:5-14:19
+21        android:allowBackup="false"
+21-->C:\Users\Roland\Desktop\XboxTankCar\AndroidController\app\src\main\AndroidManifest.xml:6:66-93
+22        android:debuggable="true"
+23        android:extractNativeLibs="false"
+24        android:icon="@drawable/school_icon"
+24-->C:\Users\Roland\Desktop\XboxTankCar\AndroidController\app\src\main\AndroidManifest.xml:6:29-65
+25        android:label="TRC"
+25-->C:\Users\Roland\Desktop\XboxTankCar\AndroidController\app\src\main\AndroidManifest.xml:6:9-28
+26        android:supportsRtl="true"
+26-->C:\Users\Roland\Desktop\XboxTankCar\AndroidController\app\src\main\AndroidManifest.xml:6:94-120
+27        android:theme="@android:style/Theme.Material.NoActionBar" >
+27-->C:\Users\Roland\Desktop\XboxTankCar\AndroidController\app\src\main\AndroidManifest.xml:5:18-75
+28        <activity
+28-->C:\Users\Roland\Desktop\XboxTankCar\AndroidController\app\src\main\AndroidManifest.xml:7:9-13:20
+29            android:name="hu.tankcar.controller.MainActivity"
+29-->C:\Users\Roland\Desktop\XboxTankCar\AndroidController\app\src\main\AndroidManifest.xml:7:19-47
+30            android:exported="true"
+30-->C:\Users\Roland\Desktop\XboxTankCar\AndroidController\app\src\main\AndroidManifest.xml:8:13-36
+31            android:screenOrientation="landscape" >
+31-->C:\Users\Roland\Desktop\XboxTankCar\AndroidController\app\src\main\AndroidManifest.xml:7:48-85
+32            <intent-filter>
+32-->C:\Users\Roland\Desktop\XboxTankCar\AndroidController\app\src\main\AndroidManifest.xml:9:13-12:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->C:\Users\Roland\Desktop\XboxTankCar\AndroidController\app\src\main\AndroidManifest.xml:10:17-69
+33-->C:\Users\Roland\Desktop\XboxTankCar\AndroidController\app\src\main\AndroidManifest.xml:10:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->C:\Users\Roland\Desktop\XboxTankCar\AndroidController\app\src\main\AndroidManifest.xml:11:17-77
+35-->C:\Users\Roland\Desktop\XboxTankCar\AndroidController\app\src\main\AndroidManifest.xml:11:27-74
+36            </intent-filter>
+37        </activity>
+38    </application>
+39
+40</manifest>

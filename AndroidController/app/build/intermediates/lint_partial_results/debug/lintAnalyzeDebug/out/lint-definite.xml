@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.13.0" type="incidents">
+
+    <incident
+        id="OldTargetApi"
+        severity="warning"
+        message="Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the `android.os.Build.VERSION_CODES` javadoc for details.">
+        <fix-replace
+            description="Update targetSdkVersion to 37"
+            oldString="36"
+            replacement="37"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="8"
+            column="9"
+            startOffset="199"
+            endLine="8"
+            endColumn="21"
+            endOffset="211"/>
+    </incident>
+
+    <incident
+        id="AndroidGradlePluginVersion"
+        severity="warning"
+        message="A newer version of Gradle than 8.13 is available: 8.14.6">
+        <fix-replace
+            description="Update to 8.14.6"
+            oldString="8.13"
+            replacement="8.14.6"
+            priority="0"/>
+        <location
+            file="$HOME/Desktop/XboxTankCar/AndroidController/gradle/wrapper/gradle-wrapper.properties"
+            line="3"
+            column="17"
+            startOffset="81"
+            endLine="3"
+            endColumn="79"
+            endOffset="143"/>
+    </incident>
+
+    <incident
+        id="DiscouragedApi"
+        severity="warning"
+        message="Fixed screen orientations will be ignored in most cases, starting from Android 16. Android is moving toward a model where apps are expected to adapt to various orientations, display sizes, and aspect ratios.">
+        <show-url
+            description="Show https://developer.android.com/adaptive-apps"
+            url="https://developer.android.com/adaptive-apps"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*manifest*0}"
+            line="7"
+            column="48"
+            startOffset="568"
+            endLine="7"
+            endColumn="85"
+            endOffset="605"/>
+    </incident>
+
+</incidents>

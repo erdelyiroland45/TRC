@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\Roland\\Desktop\\XboxTankCar\\build\\gradle-home\\daemon\\8.13\\hu.tankcar.controller.app-debug-4:\\drawable_seek_tick.xml.flat",
+        "source": "C:\\Users\\Roland\\Desktop\\XboxTankCar\\build\\gradle-home\\daemon\\8.13\\hu.tankcar.controller.app-main-6:\\drawable\\seek_tick.xml"
+    },
+    {
+        "merged": "hu.tankcar.controller.app-debug-4:/drawable_school_icon.png.flat",
+        "source": "hu.tankcar.controller.app-main-6:/drawable/school_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Roland\\Desktop\\XboxTankCar\\build\\gradle-home\\daemon\\8.13\\hu.tankcar.controller.app-debug-4:\\drawable_car_icon.xml.flat",
+        "source": "C:\\Users\\Roland\\Desktop\\XboxTankCar\\build\\gradle-home\\daemon\\8.13\\hu.tankcar.controller.app-main-6:\\drawable\\car_icon.xml"
+    }
+]
